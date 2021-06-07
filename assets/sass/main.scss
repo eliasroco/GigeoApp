@@ -1,0 +1,35 @@
+/* vendors */
+@import "vendors/bootstrap/scss/bootstrap.scss";
+
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+
+/* base */
+@import
+  'base/reset',
+  'base/base',
+  'base/typography';
+
+
+
+  /* components */
+  @import 'components/buttons';
+  @import 'components/inputs';
+  @import 'components/thumbnails';
+
+  /* layout */
+@import 'layout/footer';
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/galery';
+  
+  
+/* pages */
+// @import 'pages';
+  
+/* themes */
+// @import 'themes';
